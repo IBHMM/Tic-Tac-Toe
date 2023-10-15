@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head></head>
+    <main>
+        <div id="main">
+            <section id="play_ground">
+                <h1>Tic Tac Toe</h1>
+                <div id="container">
+                    <div id="row">
+                        <div id="X_O" class="a00"></div>
+                        <div id="X_O" class="a10"></div>
+                        <div id="X_O" class="a20"></div>
+                    </div>
+
+                    <div id="row">
+                        <div id="X_O" class="a01"></div>
+                        <div id="X_O" class="a11"></div>
+                        <div id="X_O" class="a21"></div>
+                    </div>
+
+                    <div id="row">
+                        <div id="X_O" class="a02"></div>
+                        <div id="X_O" class="a12"></div>
+                        <div id="X_O" class="a22"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="score">
+                <span>
+                    <h2 id="playerx"> Player X: 0 </h2>
+                </span>
+                <span>
+                    <h2 id="playero"> Player O: 0 </h2>
+                </span>
+            </section>
+            <div id="tie">
+                
+            </div>
+            <button id="reset_button">Reset</button>
+        </div>
+    </main>
+    <script type="module" src="engine.js"></script>
+    <script type="module" src="xox.js"></script>
+</body>
+
+</html>
